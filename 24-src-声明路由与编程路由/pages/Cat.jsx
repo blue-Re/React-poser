@@ -7,7 +7,7 @@ export default function Cat() {
     <div>
       <h1>Cat----------</h1>
       <Switch>
-        <Route path={'/cat/caiji/:id'} component={CaiJi}/>
+        <Route path={'/cat/caiji'} component={CaiJi}/>
         <Route path={'/cat/jimi'} component={JiMi}/>
         <Redirect to={'/cat/jimi'}/>
       </Switch>
